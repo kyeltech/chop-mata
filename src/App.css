@@ -1,0 +1,28 @@
+:root{
+  --mainGreen:#203d28;
+  --mainBlue: #152833;
+  --mainWhite: #faf4f2;
+  --mainWhite: #fffffff6;
+  --mainDark: #000000;
+  --mainYellow: #e4e731;
+  --mainBlack: #000000;
+}
+body{
+  font-family: "Roboto" sans-serif !important;
+  background: var(--mainWhite) !important;
+  color: var(--mainWhite);
+} 
+.text-title{
+  font-family: "Permanent Marker", cursive;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase; 
+}
+.text-red{
+  color: var(--mainRed);
+}
+.text-bright{
+  color: var(--lightWine);
+}
+.nav-link{
+  color: white;
+}
