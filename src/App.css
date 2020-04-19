@@ -1,6 +1,6 @@
 :root{
   --mainGreen:#203d28;
-  --mainBlue: #152833;
+  --mainBlue: #10232e;
   --mainWhite: #faf4f2;
   --mainWhite: #fffffff6;
   --mainDark: #000000;
@@ -25,4 +25,21 @@ body{
 }
 .nav-link{
   color: white;
+}
+.btn-black{
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var (--mainDark);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--mainDark) !important;
+}
+.btn-black:hover{
+  background: var(--mainDark) !important;
+  color: var(--mainDark) !important;
+}
+.cart-icon{
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--mainGreen);
 }
