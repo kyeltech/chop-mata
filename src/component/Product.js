@@ -86,9 +86,11 @@ transition: all 1s linear;
 .img-container {
     position: relative;
     overflow: hidden;
+    background-color: #cae0cb;
 }
 .card-img-top{
     transition: all 1s linear;
+
 }
 .img-container:hover .card-img-top {
     transform: scale(1.2);

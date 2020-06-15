@@ -21,7 +21,6 @@ return (
 <div className="row">
 <ProductConsumer>
 {value => {
-
 return value.products.map(product => {
  return <Product key={product.id} product = 
  {product} />;
